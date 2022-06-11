@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="/test.css">
+   
+</head>
+<body>
+   
+    <div >
+  <input class="inpu" type="number"><br>
+  <button onclick="hi(1)" >1</button>
+  <button onclick="hi(2)" >2</button>
+  <button onclick="hi(3)">3</button>
+  <button onclick="hi(4)" >4</button><br>
+  <button onclick="hi(5)" >5</button>
+  <button onclick="hi(6)">6</button>
+  <button onclick="hi(7)" >7</button>
+  <button onclick="hi(8)" >8</button><br>
+  <button onclick="hi(9)">9</button>
+  <button onclick="hi(0)">0</button>
+
+
+
+
+  <button onclick="cle()">C</button>
+ 
+  
+  <button onclick="min()">-</button><br>
+  <button onclick="rs()">=</button>
+  <button onclick="mult()">*</button>
+  <button onclick="dv()">/</button>
+  <button onclick="plus()">+</button>
+</div>
+<script>
+function hi(num){
+first=document.getElementsByClassName("inpu")[0].value;
+second=first+num;
+document.getElementsByClassName("inpu")[0].value=second;
+
+}
+
+
+function plus(){
+    ls="+"
+    last=document.getElementsByClassName("inpu")[0].value;
+    document.getElementsByClassName("inpu")[0].value="";
+}
+function mult(){
+    ls="*"
+    last=document.getElementsByClassName("inpu")[0].value;
+    document.getElementsByClassName("inpu")[0].value="";
+}
+function dv(){
+    ls="/"
+    last=document.getElementsByClassName("inpu")[0].value;
+    document.getElementsByClassName("inpu")[0].value="";
+}
+function min(){
+    ls="-"
+    last=document.getElementsByClassName("inpu")[0].value;
+    document.getElementsByClassName("inpu")[0].value="";
+}
+
+function cle(){
+   
+   document.getElementsByClassName("inpu")[0].value="";   
+  
+}
+
+
+
+
+function rs(){
+if(ls == "+"){
+    first=document.getElementsByClassName("inpu")[0].value;
+    result=Number(last) + Number(first);
+    document.getElementsByClassName("inpu")[0].value=result;
+}else if(ls == "*"){
+    first=document.getElementsByClassName("inpu")[0].value;
+    result=Number(last) * Number(first);
+    document.getElementsByClassName("inpu")[0].value=result;  
+}else if(ls == "/"){
+    first=document.getElementsByClassName("inpu")[0].value;
+    result=Number(last) / Number(first);
+    document.getElementsByClassName("inpu")[0].value=result;  
+}else{
+    first=document.getElementsByClassName("inpu")[0].value;
+    result=Number(last) - Number(first);
+    document.getElementsByClassName("inpu")[0].value=result;   
+}
+
+
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>

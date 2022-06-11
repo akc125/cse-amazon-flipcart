@@ -1,0 +1,423 @@
+*{
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+:root{
+    --font-color:rgb(175, 94, 94);
+
+}
+
+
+
+body{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header */
+
+.head{
+    width: 1400px;
+    height: 800px;
+    background-color: blue;
+    background-image: url(/zone/wllppr.jpg);
+    background-size: 100% 100%;
+
+}
+.nav{
+    width: 900px;
+    height: 60px;
+  
+    position: relative;
+    left: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav nav{
+    color: white;
+    font-size: 14px;
+    
+}
+.nav :nth-child(1){
+    z-index: 10;
+ 
+  
+}
+.nav img{
+    position: relative;
+    top: 5px;
+}
+.cpt{
+    width: 450px;
+    height: 140px;
+    
+    position: relative;
+    left: 480px;
+    background-image: url(/zone/fshon.png);
+    background-size: 100% 100%;
+}
+.glass{
+    width: 900px;
+    height: 600px;
+    background:linear-gradient(rgb(240, 238, 238,0.1),black);
+    position: relative;
+    left: 230px;
+   box-shadow: -10px 0px 15px rgb(49, 48, 48,0.9);
+ 
+}
+.disc{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    
+    position: relative;
+    left: 0px;
+  
+    padding: 20px;
+   
+}
+.disc button{
+    position: relative;
+    left: 5px;
+    top: 0px;
+    border: none;
+    width: 150px;
+    height: 40px;
+  background-color: rgb(252, 1, 1);
+    color: rgb(207, 193, 193);
+}
+.disc h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 9000px;
+    position: relative;
+    
+}
+.disc p{
+    color: white;
+    word-spacing: 10px;
+
+}
+.navhead{
+    width: 55px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 223px;
+    background-color: rgb(255, 62, 4);
+   z-index: 5;
+}
+
+/* body */
+.bd{
+    width: 1400px;
+    height: 800px;
+    background-color: brown;
+    background-image: linear-gradient(rgba(248, 248, 233, 0.9),rgb(235, 232, 219)),url(/zone/gry\ wd.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.blk{
+    width: 900px;
+    height: 520px;
+    background-color: black;
+    position: relative;
+    left: 230px;
+    display: flex;
+    box-shadow: -5px 10px 15px rgb(49, 48, 48);
+
+}
+.bl{
+    width: 370px;
+    height: 500;
+
+}
+.blk1{
+width: 300px;
+height: 400px;
+
+padding: 10px;
+
+
+
+}
+.blk1 h3{
+color: rgb(202, 142, 142);
+font-size: 30px;
+position: relative;
+left: 205px;
+top: -77PX;
+
+
+
+}
+.blk1 p{
+    color: rgb(194, 148, 148);
+    position: relative;
+    left: 70px;
+    top: -60PX;
+    text-align: right;
+    
+    
+
+
+
+}
+.blk2{
+    width: 300px;
+    height: 100px;
+    
+    
+    
+    }
+.blk2 button{
+    position: relative;
+    left: 210px;
+    top: -15px;
+    border: none;
+    width: 150px;
+    height: 40px;
+  background-color: rgb(252, 1, 1);
+    color: rgb(207, 193, 193);
+}
+.lds{
+    width: 530px;
+    height: 540px;
+ gap: 10px;
+   
+}
+.lds h3{
+    position: relative;
+    left: 150px;
+    top: -70px;
+    color: rgb(202, 142, 142);
+    font-size: 30px;
+}
+.ld{
+    width: 380px;
+    height: 160px;
+    padding-left: 150px;
+
+ position: relative;
+ top:-10px;
+}
+.ld img{
+    border-radius: 50px 50px;
+  position: relative;
+  top: -30px;
+  border: 2px solid white;
+}
+.ld p{
+    font-size: 13px;
+    position: relative;
+    left: 120px;
+    top: -120px;
+    width: 250px;
+    color: rgb(202, 142, 142);
+
+}
+
+
+.wht{
+    width: 900px;
+    height: 430px;
+    background:linear-gradient(rgb(241, 232, 232,0.9),rgb(245, 244, 244)),url(/zone/gry\ wd.jpeg);
+    position: relative;
+    left: 230px;
+    display: block;
+    box-shadow: -5px 0px 15px rgb(49, 48, 48);
+}
+.hd{
+    width: 200px;
+    height: 40px;
+  
+    position: relative;
+    left: 340px;
+    padding-top: 5px;
+}
+.hd h3{
+    color: rgb(76, 78, 60);
+    font-size: 21px;
+    position: relative;
+   left: 80px;
+
+}
+.col{
+    width: 600px;
+    height: 60px;
+    position: relative;
+    left: 150px;
+padding-top: 3px;
+padding-left: 80px;
+}
+.col ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  
+
+}
+.col ul li{
+    border: 2px solid rgb(62, 82, 62);
+    padding: 5px;
+    border-radius: 5px 15px;
+    width: 100px;
+    text-align: center;
+}
+
+.grid{
+    width: 800px;
+    position: relative;
+    left: 55px;
+    height: 250px;
+    background-color: rgb(93, 180, 252);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid img{
+    object-fit: cover;
+}
+
+/* footer */
+.ft{
+    width: 1400px;
+    height: 400px;
+    background-color: rgb(1, 0, 8);
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    
+}
+.ft img{
+
+    position: relative;
+    left: 644px;
+    top: 105px;
+}
+.adr{
+    width: 600px;
+    height: 100px;
+    
+    display: flex;
+    position: relative;
+    left: 385px;
+    top: 90px;
+}
+.nam{
+    width: 300px;
+    height: 120px;
+ 
+   display: block;
+
+  
+}
+.ads{
+    width: 300px;
+    height: 110px;
+   
+   
+}
+.ft h3{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 595px;
+    top: 80px;
+
+}
+.ft button{
+    position: relative;
+    left: 620px;
+    top: 110px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(250, 0, 0);
+    color: white;
+}
+.nam input{
+    width: 300px;
+    height: 45px;
+ 
+  
+    border: none;
+    background-color: rgb(58, 104, 104);
+outline: none;
+box-shadow: 8px 8px 7px rgb(50, 51, 51) inset;
+
+}
+.nam input{
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+ label{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 10px;
+    top: -30px;
+    transition: 0.3s;
+    
+}
+ .nam input:focus ~label,
+ .qw input:valid ~label{
+    color: chocolate;
+    font-size: 12px;
+   top: -45px;
+}
+.nam input:focus~label
+.qw input:valid~label{
+    top: -45px;
+    color: chocolate;
+    font-size: 12px;
+}
+.ads label{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 25px;
+    top: -90px;
+    transition: 0.3s; 
+   
+}
+.ads input{
+    font-size: 14px;
+    padding-left: 10px;
+ padding-bottom: 50px;
+    color: white;
+}
+.ads input:focus ~label{
+    top: -40px;
+    font-size: 14px;
+    color:chocolate ;
+ }
+.nam input:nth-child(2){
+margin-top: 10px;
+
+
+
+
+}
+.ads input{
+    width: 290px;
+    height: 112px;
+    border: none;
+    background-color: rgb(58, 104, 104);
+    outline: none;
+    box-shadow: 10px 10px 7px rgb(50, 51, 51) inset;
+    
+    
+    margin-left: 10px;
+    outline: none;
+}
+.ads input::placeholder{
+    color: aliceblue;
+    position: relative;
+    left: 20px;
+    top: -30px;
+    background-color: aqua;
+}

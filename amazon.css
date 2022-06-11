@@ -1,0 +1,246 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* head */
+.head{
+    background-color: blue;
+    height: 60px;
+    width: 1360px;
+    display: flex;
+}
+.logo{
+    width: 140px;
+    height: 60px;
+    background-color: rgb(7, 3, 31);
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.logo img{
+    
+}
+.imc{
+    width: 40px;
+    height: 60px;
+background-color:rgb(7, 3, 31) ;
+}
+.imc img{
+    position: relative;
+    left: 8px;
+    top: 23px;
+}
+.adress{
+    width: 160px;
+    height: 60px;
+   background-color:rgb(7, 3, 31); ;
+    color: white;
+    padding-top: 10px;
+    padding-left: 1px;
+    
+}
+.adress{
+    position: a;
+
+  
+}
+.input{
+    width: 658px;
+    height: 60px;
+    background-color:rgb(7, 3, 31); ;
+    display: flex;
+}
+.input input{
+    width: 658px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    padding-left: 82px;
+    outline: none;
+    border: none;
+    border: 3px solid rgb(252, 174, 4) ;
+    border-radius: 5px;
+}
+.srch img{
+    position: relative;
+    left: 18px;
+    top: 10px;
+}
+.flag{
+    width: 70px;
+    height: 60px;
+    background-color:rgb(7, 3, 31); ;
+    display: flex;
+}
+.flag:hover > div{
+visibility: visible;
+}
+ .list{
+width: 220px;
+    height: 343px;
+background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 990px;
+    padding-left: 13px;
+   visibility:hidden;
+   box-shadow: 0px 0px 5px;
+}
+
+li{
+    list-style: none;
+    font-size: 14px;
+    margin: 14px;
+ 
+}
+ li:hover{
+   list-style: disc;
+   color: rgb(159, 50, 31);
+ text-decoration: underline;
+
+}
+
+
+.flag img:nth-child(1){
+    position: relative;
+    top: 28px;
+    left: 25px;
+}
+.flag img:nth-child(2){
+    position: relative;
+    top: 33px;
+    left: 30px;
+    transform: rotate(90deg);
+}
+.account{
+
+        width: 130px;
+        height: 60px;
+        background-color:rgb(7, 3, 31); ;
+    padding-top: 15px;
+    padding-left: 13px;
+    display: flex;
+}
+.account text{
+    font-size: px;
+}
+.account img{
+    position: relative;
+    top: 15px;
+    left: 3px;
+    transform: rotate(90deg);
+}
+
+
+.return{
+    width: 100px;
+    height: 60px;
+    background-color:rgb(7, 3, 31); ;
+    padding-top: 15px;
+    padding-left: 13px;
+    color: white;
+}
+.cart{
+    width: 100px;
+    height: 60px;
+    background-color:rgb(7, 3, 31);
+  display: flex;
+}
+.cart h3{
+    position: relative;
+    top: 28px;
+    left: 3px;
+}
+.cart img{
+    position: relative;
+    top: 15px;
+    left: 0px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+.nav{
+    background-color: rgb(213, 57, 169);
+    height: 40px;
+    width: 1360px;
+    display: flex;
+}
+
+.na{
+    width: 820px;
+    height: 40px;
+    background-color: rgb(43, 217, 226);
+}
+.all{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(23, 17, 60);
+    
+}
+.all h4{
+    position: relative;
+    left: 35px;
+    top: 1px;
+}
+.zeebra{
+    background: linear-gradient(white  0px 3px,white 3px 10px,black 10px 13px,black 13px 20px,white 20px 22px,black 24px 30px);
+    position: relative;
+    left: 10px;
+    top: 10px;
+
+}
+.prime{
+    width: 450px;
+    height: 40px;
+    background-color: rgb(226, 101, 43);
+}
+/* body */
+.add{
+width: 1360px;
+height: 700px;
+background-color: rgb(248, 250, 250);
+
+}
+.col1{
+    width: 1360px;
+    height: 420px;
+    background-color: rgb(205, 226, 67);
+    
+    }
+    .col2{
+        width: 1360px;
+        height: 420px;
+        background-color: rgb(67, 168, 226);
+        
+        }
+        /* footer */
+        .bt{
+            width: 1360px;
+            height: 45px;
+            background-color: blueviolet;
+        }
+        .first{
+            width: 1360px;
+            height: 300px;
+            background-color: rgb(242, 183, 6);
+        }
+        .second{
+            width: 1360px;
+            height: 160px;
+            background-color: blueviolet;
+        }
+        .last{
+            width: 1360px;
+            height: 205px;
+            background-color: rgb(4, 86, 16);
+        }

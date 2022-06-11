@@ -1,0 +1,62 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+body{
+    background-image: linear-gradient(blue,black);
+}
+input{
+    position: relative;
+    left: 500px;
+    top: 300px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+}
+.btn{
+    position: relative;
+    left: 500px;
+    top: 300px;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 30px;
+}
+ul{
+    position: relative;
+    left: 500px;
+    top: 300px;
+    list-style: none;
+width: 200px;
+border: none;
+outline: none;
+}
+li{
+    width: 200px;
+    margin: 2px;
+    background-color: rgb(49, 5, 49);
+    color: white;
+    outline: none;
+    text-align: center;
+}
+
+.dele{
+    width: 50px;
+    height: 30px;
+    background-color: cornflowerblue;
+    position: relative;
+    left: 150px;
+}
+.boll{
+    width: 50px;
+    height: 30px;
+    background-color: cornflowerblue;
+    position: relative;
+    left: 150px;
+}

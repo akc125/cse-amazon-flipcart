@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="javas.css">
+</head>
+<body>
+  
+<input type="text" class="name">
+<button onclick="main()" class="btn">Add</button>
+<ul class="uu"></ul>
+
+
+
+  <script>
+let lion=document.getElementsByClassName("name")[0];
+let fox=document.getElementsByClassName("uu")[0];
+let cate=document.getElementsByClassName("btn")[0];
+
+let apple=[];
+let mavu;
+
+
+function yoyo(){
+    localStorage.setItem("ib",JSON.stringify (apple))
+}
+function soyo(){
+    if(localStorage.getItem("ib")){
+        apple=JSON.parse( localStorage.getItem("ib"))
+   covu()
+    }
+  
+}
+function covu(){
+    fox.textContent="";
+    apple.forEach((item) => {
+        let li=document.createElement("li");
+li.classList.add("mang");
+fox.appendChild(li);
+console.log(mavu)
+let sp=document.createElement("span");
+sp.classList.add("spl");
+sp.innerText=item;
+li.appendChild(sp);
+
+let d=document.createElement("button");
+d.classList.add("dele");
+d.innerText="delete";
+li.appendChild(d)
+
+let dos=document.createElement("button");
+dos.classList.add("boll");
+dos.innerText="Edit";
+li.appendChild(dos)
+
+
+lion.value="";
+lion.focus()
+
+
+
+    });
+   
+}
+
+
+
+function main(){
+ mavu=lion.value;
+apple.push(mavu)
+yoyo()
+soyo()
+}
+
+function dol(event){
+    if(event.target.classList[0] === "dele"){
+        let item=JSON.parse(window.localStorage.getItem("ib"))
+        let boy=event.target.parentElement.parentElement.classList[0]("mang")
+        item=item.boy != boy;
+        window.localStorage.setItem("ib", JSON.stringify(item));
+        event.target.parentElement.parentElement.remove();
+    }
+}
+
+function dl(event){
+    if(event.target.classList[0] === "boll"){
+        let moo=prompt("pleas edit");
+        let item=event.target.parentElement;
+       let holl= item.querySelector("span")
+       holl.innerText=moo;
+
+    }
+}
+
+fox.addEventListener("click", dol)
+fox.addEventListener("click", dl)
+
+
+soyo()
+  </script>
+</body>
+</html>

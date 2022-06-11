@@ -1,0 +1,36 @@
+
+.yy {
+width: 1300px;
+
+
+}
+.yy ul{
+    list-style: none;
+    margin-top: 2px;
+}
+.yy ul li{
+    margin: 1px;
+background-color: black;
+width: 170px;
+height: 50px;
+line-height: 50px;
+text-align: center;
+float: left;
+color: aliceblue;
+position: relative;
+
+}
+.yy ul ul{
+    position: relative;
+    left: -40px;
+    display: none;
+}
+.yy ul ul ul{
+    position: relative;
+    left: 130px;
+    top: -53px;
+}
+.yy ul li:hover > ul{
+display: block;
+
+}

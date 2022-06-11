@@ -1,0 +1,252 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+       
+}
+header{
+    background-color: rgba(118, 120, 121, 0.3);
+    
+    width: 1380px;
+ height: 50px;
+position: absolute;
+margin-top: 0;
+}
+.head{
+    display: flex;
+
+    justify-content: space-between;
+    padding-top: 15px;
+    position: relative;
+ left: 100px;
+ width: 1280px;
+
+
+ 
+
+}
+
+  
+
+.head  a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 100px;
+    color: rgb(168, 123, 123);
+    animation:  1s linear infinite;
+}
+a:hover{
+    color: rgb(224, 155, 123);
+}
+
+
+
+.bodys{
+    width: 1380px;
+    height: 100vh;
+   
+    
+    background: linear-gradient(rgba(235, 35, 35, 0.3), rgb(19, 16, 16)), url(/photos2/drk\ blck\ bx.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.bodysec{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+}
+.left{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    position: relative;
+    left: 50px;
+}
+.left h1{
+    color: rgb(255, 246, 246);
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 80px;
+}
+.left p{
+    color: rgb(190, 196, 201);
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+.left p::first-letter{
+    font-size: 30px;
+    font-weight: 80px;
+    color: rgb(248, 244, 244);
+}
+.left button{
+    background-color: rgb(243, 234, 234);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(66, 54, 54);
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px inset rgb(19, 18, 18);
+
+}
+.left button:hover{
+    box-shadow: 0px 0px 18px rgb(153, 144, 144)
+}
+.right{
+    width: 400px;
+    height: 380px;
+    background-color:rgb(99, 89, 89,0.3);
+    position: relative;
+    left: 300px;
+    top: 100px;
+   position: relative;
+   padding: 20px;
+   border-radius: 10px;
+  animation: expand 5s linear infinite;
+ box-shadow: 5px 5px  15px inset rgb(121, 121, 122,0.4); 
+
+   
+}
+@keyframes  expand{
+    0%{ width: 400px;
+    
+
+    }
+    50%{
+width: 401; background-color: rgb(99,89,89,0.1);
+    }
+   
+   100%{
+width: 400px;;
+   }
+}
+.right:hover{
+    animation-play-state: paused;
+}
+
+.right h4{
+    color: rgb(190, 177, 177);
+    font-size: 30px;
+    width: 300px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 10px;
+
+}
+.inputsec{
+    position: relative;
+    left: 20px;
+    top: 20px;
+   
+}
+.inputsec input{
+    width: 300px;
+    margin: 10px;
+    outline: none;
+    height: 25px;
+position: relative;
+top: 30px;
+border: none;
+border-bottom: 1px solid rgb(100, 49, 49);
+background-color: rgb(61, 61, 70,0.0);
+  
+
+}
+.inputsec label{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: -4px;
+    left: 11px;
+    color: rgb(241, 179, 179);
+    transition: 0.3s;
+ 
+}
+
+
+.inputsec input:focus~label,
+ .inputsec input:valid~label{
+    color: rgb(197, 60, 60);
+    top: -20px;
+    
+}
+.right button{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    top: 50px;
+    left: 30px;
+    color: rgb(167, 150, 150);
+    background: linear-gradient(rgb(172, 83, 83), black);
+    border: none;
+    
+   
+}
+.right button:hover{
+    box-shadow: 0 0.5px 5px rgb(160, 155, 155);}
+
+ 
+
+.imgg{
+    width: 1350px;
+    height: 600px;
+   
+}
+.imgcont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60PX;
+    
+   
+}
+.imgo{
+    
+    height: 450px;
+    width: 350px;
+    position: relative;
+    top: 0px;
+    box-shadow: 0px 05px 10px rgb(75, 69, 69);
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+  
+  
+}
+.imgo h4{
+    color: rgb(128, 78, 78);
+    margin-top: 10px;
+    text-shadow: 3px 3px 5px rgb(179, 162, 162);
+}
+img{
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    transition: 0.4s;
+
+}
+img:hover{
+    transform: scale(1.1) rotate(-4deg)
+    
+
+}
+.foot{
+    text-align: center;
+}
+footer{
+    color: rgb(119, 104, 104);
+}
+.foot span{
+    color: rgb(44, 210, 240);
+    font-weight: bold;
+}

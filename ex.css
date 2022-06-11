@@ -1,0 +1,188 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  
+}
+/* head section */
+header{
+    width: 100%;
+    background-color:rgb(23, 23, 23,0.15) ;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+  
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    margin-left: 120px;
+}
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(255,255,255, 0.719);
+    font-family:  Tahoma;
+}
+/* body section */
+main {
+    
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgb(6,72,105,0.849),rgb(3, 96, 133)),url(/photos2/blue\ bcnd.jpeg);
+    padding-top: 100px;
+    background-attachment: fixed;
+   
+    
+
+}
+main .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    
+}
+.left{
+    width: 500px;
+    height: 200px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 40px;
+    color: white;
+}
+.left p{
+    margin: 0;
+    font-size: 14px;
+    
+    letter-spacing: 1px;
+    color: rgb(255,255,255,0.884);
+    margin-top: 18px;
+    line-height: 28px;
+}
+.left button{
+    color: rgb(78,78,78);
+    background-color: white;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.right{
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 0;
+    box-shadow: rgb(136, 136 136);
+}
+.right h4{
+    font-size: 20px;
+    width:300px ;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(136,136,136);
+
+}
+.input{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.input label{
+    color: rgb(165,165,165);
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    transition: 0.5s;
+}
+.input input{
+    border: none;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    border-bottom: 1px solid #c9c9c98a;
+    
+}
+.input input:focus~label,
+.input input:valid~label{
+    color:rgb(108, 182, 211);
+    top: -10px;
+    
+    
+}
+
+
+.sub{
+ text-align: center;
+}
+.subm {
+    background-color: rgb(120, 208, 243);
+    color: white;
+    border: none;
+    padding: 10px 0;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 300px;
+  
+}
+.sub .subm{
+    cursor: pointer;
+}
+
+.dvimg{
+   
+    height: 100vh;
+    align-items: center;
+    width: 1000px;
+    
+}
+.imgdv{
+  
+    display: flex;
+justify-content: space-evenly;
+width: 1350px;
+margin-top: 30px;
+}
+.imgdvv{
+    box-shadow: 10px 5px 10px rgb(110, 98, 98);
+    border-radius: 9px;
+    text-align: center;
+    overflow: hidden;
+}
+.imgdv img{
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+    margin-top: 0;
+    object-fit: cover;
+    transition: 0.5s;
+   
+}
+h4{
+    color: rgb(97, 95, 95);
+}
+img:hover{
+    transform: scale(1.1)
+    rotate(-5deg)
+    
+}
+span{
+    color: rgb(105, 210, 236);
+    font-weight: bold;
+}
+
+
+
+/* foot section */

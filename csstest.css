@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.b{
+    background-color: blue;
+}
+.a{
+    height: 50px;
+    background-color: rgb(47, 0, 255);
+}
+.inpu{
+    width: 100%; height: 20px;
+    position: relative;
+    top: 10px;
+   
+    height: 30px;
+
+}
+.o{
+ display: flex;
+ justify-content: space-around;
+}
+.ly{
+    color: aliceblue;
+    display: none;
+}
+@media(max-width:750px){
+.x{
+    display: none;
+    
+}
+.y {
+    display: none;
+
+}
+}
+@media(max-width:550px){
+   .l{
+       display: none;}
+    .ly{
+        display: block;
+    }
+   }
+    }
+@media(max-width:900px){
+    
+
+
+
+    }
